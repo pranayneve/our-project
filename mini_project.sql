@@ -209,30 +209,36 @@ INSERT INTO admin VALUES(31,'harini','password31');
 
 
 --USER_DETAILS TABLE
-INSERT INTO user_details VALUES(1,'user1','first1','last1','email1','pass1','06-01-1982',9876543211,1000);
-INSERT INTO user_details VALUES(2,'user2','first2','last2','email2','pass2','25-04-1993',9876543212,1100);
-INSERT INTO user_details VALUES(3,'user3','first3','last3','email3','pass3','12-02-1995',9876543213,1200);
-INSERT INTO user_details VALUES(4,'user4','first4','last4','email4','pass4','17-11-2001',9876543214,1300);
-INSERT INTO user_details VALUES(5,'user5','first5','last5','email5','pass5','23-01-2012',9876543215,1400);
-INSERT INTO user_details VALUES(6,'user6','first6','last6','email6','pass6','30-05-1999',9876543216,1500);
-INSERT INTO user_details VALUES(7,'user7','first7','last7','email7','pass7','06-08-1994',9876543217,1600);
-INSERT INTO user_details VALUES(8,'user8','first8','last8','email8','pass8','09-09-1990',9876543218,1700);
-INSERT INTO user_details VALUES(9,'user9','first9','last9','email9','pass9','23-01-1984',9899543211,1800);
-INSERT INTO user_details VALUES(10,'user10','first10','last10','email10','pass10','25-08-1993',9888543212,1900);
-INSERT INTO user_details VALUES(11,'user11','first11','last11','email11','pass11','02-02-1995',9843543213,2000);
-INSERT INTO user_details VALUES(12,'user12','first12','last12','email12','pass12','11-11-2001',9854543214,2100);
-INSERT INTO user_details VALUES(13,'user13','first13','last13','email13','pass13','23-11-2011',9865543215,2200);
-INSERT INTO user_details VALUES(14,'user14','first14','last14','email14','pass14','16-09-1999',9821543216,2300);
-INSERT INTO user_details VALUES(15,'user15','first15','last15','email15','pass15','06-12-1994',9867543217,2400);
-INSERT INTO user_details VALUES(16,'user16','first16','last16','email16','pass16','09-11-1990',9877643218,2500);
-INSERT INTO user_details VALUES(17,'user17','first17','last17','email17','pass17','25-06-1998',9888543212,1900);
-INSERT INTO user_details VALUES(18,'user18','first18','last18','email18','pass18','22-02-1995',9843543213,2000);
-INSERT INTO user_details VALUES(19,'user19','first19','last19','email19','pass19','11-11-2011',9854543214,2100);
-INSERT INTO user_details VALUES(20,'user20','first20','last20','email20','pass20','23-12-2001',9865543215,2200);
-INSERT INTO user_details VALUES(21,'user21','first21','last21','email21','pass21','16-09-1989',9821543216,2300);
-INSERT INTO user_details VALUES(22,'user22','first22','last22','email22','pass22','06-12-1994',9867543217,2400);
-INSERT INTO user_details VALUES(23,'user23','first23','last23','email23','pass23','09-09-1990',9877643218,2500);
-
+INSERT INTO user_details VALUES(1,'pneve','Pranay','Neve','pranay@gmail.com','pranay@123','06-01-1982',9876543211,1000);
+INSERT INTO user_details VALUES(2,'sbodhane','Shreya','Bodhane','shreya@gmail.com','shreya@123','25-04-1993',9876543212,1100);
+INSERT INTO user_details VALUES(3,'sasik','Sasidhar','Karunakaran','sasidhar@gmail.com','sasidhar@123','12-02-1995',9876543213,1200);
+INSERT INTO user_details VALUES(4,'hs','Harishma','S','harishma@gmail.com','harishma@123','17-11-2001',9876543214,1300);
+INSERT INTO user_details VALUES(5,'jnile','Jayesh','Nile','jayesh@gmail.com','jayesh@123','23-01-2012',9876543215,1400);
+INSERT INTO user_details VALUES(6,'asharma','Ayush','Sharma','ayush@gmail.com','ayush@123','30-05-1999',9876543216,1500);
+INSERT INTO user_details VALUES(7,'bcutting','Ben','Cutting','ben@gmail.com','ben@123','06-08-1994',9876543217,1600);
+INSERT INTO user_details VALUES(8,'mdhoni','Mahendra','Dhoni','mahendra@gmail.com','mahendra@123','09-09-1990',9876543218,1700);
+INSERT INTO user_details VALUES(9,'bstokes','Ben','Stokes','bens@gmail.com','ben@123','23-01-1984',9899543211,1800);
+INSERT INTO user_details VALUES(10,'ppatil','Pappu','Patil','pappu@gmail.com','pappu@123','25-08-1993',9888543212,1900);
+INSERT INTO user_details VALUES(11,'pnike','Prerna','Nike','prerna@gmail.com','prerna@123','02-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(12,'rkhan','Rashid','Khan','rashid@gmail.com','rashid@123','11-11-2001',9854543214,2100);
+INSERT INTO user_details VALUES(13,'eperry','Ellyse','Perry','ellyse@gmail.com','ellyse@123','23-11-2011',9865543215,2200);
+INSERT INTO user_details VALUES(14,'staylor','Steve','Taylor','steve@outlook.com','steve@123','16-09-1999',9821543216,2300);
+INSERT INTO user_details VALUES(15,'kane','Kane','Williamson','kane@gmail.com','kane@123','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(16,'jroot','Joe','Root','joe@outlook.com','joe@123','09-11-1990',9877643218,2500);
+INSERT INTO user_details VALUES(17,'smandhana','Smriti','Mandhana','mandhana@outlook.com','mandhana@123','25-06-1998',9888543212,1900);
+INSERT INTO user_details VALUES(18,'rburns','Rory','Burns','rory@yahoo.com','rory@123','22-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(19,'jhyer','Jhye','Richardson','jhye@yahoo.com','jhye@123','11-11-2011',9854543214,2100);
+INSERT INTO user_details VALUES(20,'willp','Will','Pukovski','will@gmail.com','will@123','23-12-2001',9865543215,2200);
+INSERT INTO user_details VALUES(21,'jholder','Jason','Holder','jason@yahoo.com','jason@123','16-09-1989',9821543216,2300);
+INSERT INTO user_details VALUES(22,'jroy','Jason','Roy','roy@yahoo.com','roy@123','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(23,'aparajay','Apara','Jay','apara@outlook.com','apara@123','09-09-1990',9877643218,2500);
+INSERT INTO user_details VALUES(24,'fafp','Faf','Plessis','faf@gmail.com','faf@123','08-10-1995',9584731286,1000);
+INSERT INTO user_details VALUES(25,'kanek','Kane','Kammal','kane@yahoo.com','kane@123','08-09-1990',9877643218,2500);
+INSERT INTO user_details VALUES(26,'rohanp','Rohan','Phalak','rohan@yahoo.com','rohan@123','09-10-1990',9982718338,2500);
+INSERT INTO user_details VALUES(27,'nikep','Nike','Patil','nike@yahoo.com','nike@123','09-10-1990',9875823871,2000);
+INSERT INTO user_details VALUES(28,'garys','Gary','Sobers','gary@outlook.com','pass23','30-12-1990',8755991823,2500);
+INSERT INTO user_details VALUES(29,'stend','Sachin','Tendulkar','sachin@outlook.com','pass23','09-09-1991',8874512736,2000);
+INSERT INTO user_details VALUES(30,'vkohli','Virat','Kohli','virat@outlook.com','virat@123','09-09-1991',8798747333,2500);
 
 
 
@@ -282,7 +288,32 @@ INSERT INTO flight VALUES(2,'spice jet');
 INSERT INTO flight VALUES(3,'air india');
 INSERT INTO flight VALUES(4,'jet airways');
 INSERT INTO flight VALUES(5,'kingfisher');
-
+INSERT INTO flight VALUES(6,'GoAir');
+INSERT INTO flight VALUES(7,'Vistara');
+INSERT INTO flight VALUES(8,'AirAsia India');
+INSERT INTO flight VALUES(9,'Alliance Air');
+INSERT INTO flight VALUES(10,'TruJet');
+INSERT INTO flight VALUES(11,'Qatar Airways');
+INSERT INTO flight VALUES(12,'Saudi Airlines Saudia');
+INSERT INTO flight VALUES(13,'Etihad Airways');
+INSERT INTO flight VALUES(14,'Air Arabia');
+INSERT INTO flight VALUES(15,'Zoom Air');
+INSERT INTO flight VALUES(15,'FlyBig');
+INSERT INTO flight VALUES(16,'Air Deccan');
+INSERT INTO flight VALUES(17,'Air Heritage');
+INSERT INTO flight VALUES(18,'Star Air');
+INSERT INTO flight VALUES(19,'Club One Air');
+INSERT INTO flight VALUES(20,'Spirit Air');
+INSERT INTO flight VALUES(21,'Jagson Air');
+INSERT INTO flight VALUES(22,'Pawan Hans');
+INSERT INTO flight VALUES(23,'Safefly Aviation');
+INSERT INTO flight VALUES(24,'Ghodawat Aviation');
+INSERT INTO flight VALUES(25,'TajAir');
+INSERT INTO flight VALUES(26,'Supreme Airlines');
+INSERT INTO flight VALUES(27,'Titan Aviation');
+INSERT INTO flight VALUES(28,'Pinnacle Air');
+INSERT INTO flight VALUES(29,'Jal Hans');
+INSERT INTO flight VALUES(30,'Dove Airlines');
 
 
 --SCHEDULE TABLE
@@ -300,10 +331,51 @@ TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
 
 
 
+
 --use this query to check how the data is inserted into the table for date datatypes
 --select to_char(TO_DATE('06-01-2020 04:30','DD-MM-YYYY HH24:MI'),'DD-MM-YYYY HH24:MI') from dual;
 
+--PASSENGER TABLE
 
+INSERT INTO passenger VALUES(1,'Pranay','Neve',22,'economy',10,'adult',126152);
+INSERT INTO passenger VALUES(2,'Steve','Smith',28,'economy',11,'adult',126152);
+INSERT INTO passenger VALUES(3,'Marnus','Labushane',11,'economy',12,'child',126152);
+
+INSERT INTO passenger VALUES(4,'Mahendra','Dhoni',40,'business',1,'adult',475849);
+INSERT INTO passenger VALUES(5,'Suresh','Raina',34,'business',2,'adult',475849);
+INSERT INTO passenger VALUES(6,'Virat','Kohli',2,'business',1,'infant',475849);
+INSERT INTO passenger VALUES(7,'Rohit','Sharma',12,'business',3,'child',475849);
+
+INSERT INTO passenger VALUES(8,'Ben','Stokes',28,'business',10,'adult',857494);
+INSERT INTO passenger VALUES(9,'Jos','Buttler',50,'business',11,'adult',857494);
+INSERT INTO passenger VALUES(10,'De','Kock',22,'business',12,'adult',857494);
+INSERT INTO passenger VALUES(11,'Ricky','Ponting',2,'business',10,'infant',857494);
+
+INSERT INTO passenger VALUES(12,'Ben','Cutting',80,'economy',20,'adult',858464);
+INSERT INTO passenger VALUES(13,'Brad','Hogg',8,'economy',21,'child',858464);
+INSERT INTO passenger VALUES(14,'Pranay','Neve',22,'economy',22,'adult',858464);
+
+INSERT INTO passenger VALUES(15,'Ayush','Sharma',50,'economy',6,'adult',126152);
+INSERT INTO passenger VALUES(16,'Sinchan','Nohara',3,'economy',7,'child',126152);
+INSERT INTO passenger VALUES(17,'Jade','Dernbach',22,'economy',8,'adult',126152);
+INSERT INTO passenger VALUES(18,'Himawari','Nohara',1,'economy',8,'infant',126152);
+
+INSERT INTO passenger VALUES(19,'Jayesh','Nile',22,'economy',4,'adult',758474);
+INSERT INTO passenger VALUES(20,'Majrul','Ansari',30,'economy',5,'adult',758474);
+
+INSERT INTO passenger VALUES(21,'Pranay','Neve',22,'business',18,'adult',927475);
+
+INSERT INTO passenger VALUES(22,'Harishma','S',28,'business',10,'adult',854602);
+INSERT INTO passenger VALUES(23,'Rashid','Khan',50,'business',11,'adult',854602);
+INSERT INTO passenger VALUES(24,'Faf','Plessis',22,'business',12,'adult',854602);
+INSERT INTO passenger VALUES(25,'Ricky','Ponting',90,'business',13,'adult',854602);
+
+INSERT INTO passenger VALUES(26,'Sasidhar','Karunakaran',28,'business',26,'adult',288474);
+INSERT INTO passenger VALUES(27,'Rashid','Khan',50,'business',27,'adult',288474);
+INSERT INTO passenger VALUES(28,'Faf','Plessis',2,'business',27,'infant',288474);
+
+INSERT INTO passenger VALUES(29,'Shreya','Bodhane',28,'business',10,'adult',854602);
+INSERT INTO passenger VALUES(30,'Prerna','Agrawal',13,'business',11,'adult',854602);
 
 --DROPPING ALL TABLES
 
