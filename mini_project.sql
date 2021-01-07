@@ -178,6 +178,34 @@ INSERT INTO admin VALUES(1,'sasidhar','password1');
 INSERT INTO admin VALUES(2,'pranay','password2');
 INSERT INTO admin VALUES(3,'shreya','password3');
 INSERT INTO admin VALUES(4,'harishma','password4');
+INSERT INTO admin VALUES(5,'dharsh','password5');
+INSERT INTO admin VALUES(6,'vini','password6');
+INSERT INTO admin VALUES(7,'preetha','password7');
+INSERT INTO admin VALUES(8,'kishore','password8');
+INSERT INTO admin VALUES(9,'sugumaran','password9');
+INSERT INTO admin VALUES(10,'rajeswari','password10');
+INSERT INTO admin VALUES(11,'sharmila','password11');
+INSERT INTO admin VALUES(12,'nivetha','password12');
+INSERT INTO admin VALUES(13,'sasi','password13');
+INSERT INTO admin VALUES(14,'praveen','password14');
+INSERT INTO admin VALUES(15,'shree','password15');
+INSERT INTO admin VALUES(16,'harish','password15');
+INSERT INTO admin VALUES(17,'dharshan','password17');
+INSERT INTO admin VALUES(18,'praksha','password18');
+INSERT INTO admin VALUES(19,'shreeni','password19');
+INSERT INTO admin VALUES(20,'harisha','password20');
+INSERT INTO admin VALUES(21,'karthi','password21');
+INSERT INTO admin VALUES(22,'shiny','password22');
+INSERT INTO admin VALUES(23,'vino','password23');
+INSERT INTO admin VALUES(24,'riya','password24');
+INSERT INTO admin VALUES(25,'naveen','password25');
+INSERT INTO admin VALUES(26,'lakshmi','password26');
+INSERT INTO admin VALUES(27,'harishitha','password27');
+INSERT INTO admin VALUES(28,'dharsha','password28');
+INSERT INTO admin VALUES(29,'benny','password29');
+INSERT INTO admin VALUES(30,'vinith','password30');
+INSERT INTO admin VALUES(31,'harini','password31');
+
 
 
 --USER_DETAILS TABLE
@@ -189,14 +217,59 @@ INSERT INTO user_details VALUES(5,'user5','first5','last5','email5','pass5','23-
 INSERT INTO user_details VALUES(6,'user6','first6','last6','email6','pass6','30-05-1999',9876543216,1500);
 INSERT INTO user_details VALUES(7,'user7','first7','last7','email7','pass7','06-08-1994',9876543217,1600);
 INSERT INTO user_details VALUES(8,'user8','first8','last8','email8','pass8','09-09-1990',9876543218,1700);
+INSERT INTO user_details VALUES(9,'user9','first9','last9','email9','pass9','23-01-1984',9899543211,1800);
+INSERT INTO user_details VALUES(10,'user10','first10','last10','email10','pass10','25-08-1993',9888543212,1900);
+INSERT INTO user_details VALUES(11,'user11','first11','last11','email11','pass11','02-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(12,'user12','first12','last12','email12','pass12','11-11-2001',9854543214,2100);
+INSERT INTO user_details VALUES(13,'user13','first13','last13','email13','pass13','23-11-2011',9865543215,2200);
+INSERT INTO user_details VALUES(14,'user14','first14','last14','email14','pass14','16-09-1999',9821543216,2300);
+INSERT INTO user_details VALUES(15,'user15','first15','last15','email15','pass15','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(16,'user16','first16','last16','email16','pass16','09-11-1990',9877643218,2500);
+INSERT INTO user_details VALUES(17,'user17','first17','last17','email17','pass17','25-06-1998',9888543212,1900);
+INSERT INTO user_details VALUES(18,'user18','first18','last18','email18','pass18','22-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(19,'user19','first19','last19','email19','pass19','11-11-2011',9854543214,2100);
+INSERT INTO user_details VALUES(20,'user20','first20','last20','email20','pass20','23-12-2001',9865543215,2200);
+INSERT INTO user_details VALUES(21,'user21','first21','last21','email21','pass21','16-09-1989',9821543216,2300);
+INSERT INTO user_details VALUES(22,'user22','first22','last22','email22','pass22','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(23,'user23','first23','last23','email23','pass23','09-09-1990',9877643218,2500);
+
 
 
 
 --BANK ACCOUNT TABLE
-INSERT INTO bank_account VALUES(1,'citibank',20000,1);
+INSERT INTO bank_account VALUES(1,'citibank',20000,4);
 INSERT INTO bank_account VALUES(2,'canara bank',35000,1);
 INSERT INTO bank_account VALUES(3,'citibank',50000,2);
 INSERT INTO bank_account VALUES(4,'indian overseas bank',75000,3);
+INSERT INTO bank_account VALUES(5,'state bank of india',25000,4);
+INSERT INTO bank_account VALUES(6,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(7,'ICICI',40000,3);
+INSERT INTO bank_account VALUES(8,'indian overseas bank',25000,6);
+INSERT INTO bank_account VALUES(9,'citibank',30000,8);
+INSERT INTO bank_account VALUES(10,'ICICI',20000,1);
+INSERT INTO bank_account VALUES(11,'state bank of india',60000,5);
+INSERT INTO bank_account VALUES(12,'indian overseas bank',40000,7);
+INSERT INTO bank_account VALUES(13,'citibank',10000,6);
+INSERT INTO bank_account VALUES(14,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(15,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(16,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(17,'ICICI',60000,5);
+INSERT INTO bank_account VALUES(18,'indian overseas bank',40000,7);
+INSERT INTO bank_account VALUES(19,'citibank',10000,6);
+INSERT INTO bank_account VALUES(20,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(21,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(22,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(23,'state bank of india',60000,5);
+INSERT INTO bank_account VALUES(24,'HDFC',40000,7);
+INSERT INTO bank_account VALUES(25,'citibank',10000,6);
+INSERT INTO bank_account VALUES(26,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(27,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(28,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(29,'ICICI',20000,7);
+INSERT INTO bank_account VALUES(30,'indian overseas bank',15000,6);
+
+
+
 
 
 --TRANSACTION TABLE             only one record is enough
@@ -209,6 +282,7 @@ INSERT INTO flight VALUES(2,'spice jet');
 INSERT INTO flight VALUES(3,'air india');
 INSERT INTO flight VALUES(4,'jet airways');
 INSERT INTO flight VALUES(5,'kingfisher');
+
 
 
 --SCHEDULE TABLE
