@@ -36,8 +36,7 @@ ALTER TABLE booking ADD CONSTRAINT booking_pk PRIMARY KEY ( pnr );
 
 CREATE TABLE flight (
     flight_no    INTEGER NOT NULL,
-    flight_name  VARCHAR2(40),
-    price        NUMBER(10, 2)
+    flight_name  VARCHAR2(40)
 );
 
 ALTER TABLE flight ADD CONSTRAINT flight_pk PRIMARY KEY ( flight_no );
@@ -73,6 +72,8 @@ CREATE TABLE schedule (
     economy_seats     INTEGER,
     business_seats    INTEGER,
     flight_status     VARCHAR2(10),
+    b_seat_price      NUMBER(10, 2),
+    e_seat_price      NUMBER(10, 2),
     flight_flight_no  INTEGER NOT NULL
 );
 
@@ -203,11 +204,11 @@ INSERT INTO transaction VALUES(1,0);
 
 
 --FLIGHT TABLE
-INSERT INTO flight VALUES(1,'indigo',1250);
-INSERT INTO flight VALUES(2,'spice jet',1200);
-INSERT INTO flight VALUES(3,'air india',1450);
-INSERT INTO flight VALUES(4,'jet airways',1100);
-INSERT INTO flight VALUES(5,'kingfisher',1250);
+INSERT INTO flight VALUES(1,'indigo');
+INSERT INTO flight VALUES(2,'spice jet');
+INSERT INTO flight VALUES(3,'air india');
+INSERT INTO flight VALUES(4,'jet airways');
+INSERT INTO flight VALUES(5,'kingfisher');
 
 
 --SCHEDULE TABLE
@@ -215,12 +216,12 @@ INSERT INTO schedule VALUES
 (1,'chennai','mumbai',
 TO_DATE('06-01-2020 04:30','DD-MM-YYYY HH24:MI'),
 TO_DATE('06-01-2020 10:30','DD-MM-YYYY HH24:MI'),
-100,20,'ACTIVE',1);
+100,20,'ACTIVE',4500,3200,1);
 INSERT INTO schedule VALUES
-(1,'pune','mumbai',
+(2,'pune','mumbai',
 TO_DATE('07-01-2020 18:30','DD-MM-YYYY HH24:MI'),
 TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
-100,20,'ACTIVE',2);
+100,20,'ACTIVE',4850,3550,2);
 
 
 
